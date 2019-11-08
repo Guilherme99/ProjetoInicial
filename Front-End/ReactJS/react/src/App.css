@@ -84,7 +84,9 @@ p code {
 .ui.mobile.only.grid .ui.vertical.menu .ui.dropdown.item .menu .item {
   color: rgba(255, 255, 255, 0.9) !important;
 }
-
+.slide{
+  margin-bottom: 1%;
+}
 .slide .ui.inverted.vertical.segment {
   padding-top: 16rem;
   padding-bottom: 4rem;
@@ -147,4 +149,14 @@ p code {
 
 .slide .ui.segment p {
   font-size: 1.5rem;
+}
+.img_slide{
+  margin: auto;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.active1{
+  background: red;
+  margin-top: -10%;
+  padding: 2.5%;
 }

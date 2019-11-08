@@ -16,6 +16,11 @@ import {
   Segment
 } from "semantic-ui-react";
 
+import Image1 from './img/a2.jpg';
+import Image2 from './img/a.jpg';
+import Image3 from './img/carousel-1440x900.png';
+
+
 import "./App.css";
 
 class App extends Component {
@@ -116,49 +121,18 @@ class App extends Component {
         </Grid>
         <Slider {...slickSettings} className="slide">
           <Segment inverted vertical textAlign="center">
-            <Container text className="active">
-              <Header inverted as="h1">
-                Example headline.
-              </Header>
-              <p>
-                Note: If you're viewing this page via a <code>file://</code>
-                URL, the "next" and "previous" Glyphicon buttons on the left and
-                right might not load/display properly due to web browser
-                security rules.
-              </p>
-              <Button primary size="huge">
-                Sign up today
-              </Button>
+            <Container text className="active1">
+              <Image src={Image1} className="img_slide"/>
             </Container>
           </Segment>
           <Segment inverted vertical textAlign="center">
-            <Container text className="active">
-              <Header inverted as="h1">
-                Another example headline.
-              </Header>
-              <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                Donec id elit non mi porta gravida at eget metus. Nullam id
-                dolor id nibh ultricies vehicula ut id elit.
-              </p>
-              <Button primary size="huge">
-                Learn more
-              </Button>
+            <Container text className="active1">
+                    <Image src={Image2} className="img_slide"/>  
             </Container>
           </Segment>
           <Segment inverted vertical textAlign="center">
-            <Container text className="active">
-              <Header inverted as="h1">
-                One more for good measure
-              </Header>
-              <p>
-                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                Donec id elit non mi porta gravida at eget metus. Nullam id
-                dolor id nibh ultricies vehicula ut id elit.
-              </p>
-              <Button primary size="huge">
-                Browse gallery
-              </Button>
+            <Container text className="active1">
+                <Image src={Image3} className="img_slide"/>  
             </Container>
           </Segment>
         </Slider>

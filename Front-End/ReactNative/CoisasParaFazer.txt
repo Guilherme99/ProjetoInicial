@@ -1,0 +1,14 @@
+Coisas a fazer:
+
+1 - Criar aplicação base
+2 - Criar tela inicial (com layout baseado no site) (native-base)
+3 - Fazer tela de login
+4 - Fazer a integração com o servidor
+5 - Testar captura de imagens pela camera
+6 - Testar a f5 com envio de imagens por json
+7 - Fazer tela de retorno do objeto
+8 - Testar no emulador
+9 - Testar no celular em situações adversas
+10 - Corrigir possiveis problemas
+11 - Estudar otimizações do sistema
+12 - Finalizar aplicação
